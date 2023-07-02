@@ -1,0 +1,299 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Krona One', sans-serif;
+    margin: 10px 0px;
+}
+
+h1 {
+    font-size: 4.209rem;
+}
+h2 {
+    font-size: 3.052rem;
+}
+h3 {
+    font-size: 2.441rem;
+}
+h4 {
+    font-size: 1.953rem;
+}
+h5 {
+    font-size: 1.563rem;
+}
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+  color: #333 ;
+}
+
+div{
+    /* border: 1px blue solid; */
+}
+
+section {
+    background-color: lightgray;
+    padding: 80px 40px;
+}
+
+header {
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+
+}
+
+footer {
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+img {
+    /* width:100%; */
+}
+
+
+video {
+    width: 100%;
+}
+
+/* Forms */
+
+input {
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input:focus {
+    background-color: lightyellow;
+    outline: 0;
+
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    background-image: url('../icons/user-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 78%;
+}
+
+input[type=email] {
+    box-sizing: border-box;
+    background-image: url('../icons/mail-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 78%;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 80%;
+    height: 150px;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+    resize: none;
+}
+
+textarea {
+    outline: 0;
+    background-color: mintcream;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    
+}
+
+select {
+
+
+    width: 80%;
+
+    /* styling */
+    background-color:white;
+    border: thin solid grey;
+    border: radius 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+
+    /* reset */
+    margin: 8px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#btn-form {
+    width: 80%;
+}
+
+/* LINKS */
+a:link, a:visited {
+     text-decoration: none;
+     color: lightseagreen;
+     padding: 10px;
+}
+
+a:hover {
+     color: midnightblue;
+}
+
+a:active {
+     color: olive;
+}
+/* LINKS END */
+
+
+/* CTA Button */
+a.cta-button:link, a.cta-button:visited {
+    background-color: orangered;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 16px 24px;
+}
+
+a.cta-button:hover {
+    background-color: tomato;
+}
+
+a.cta-button:active {
+    background-color: darkred ;
+}
+
+
+/* CV Download Button */
+a.cv-button:link, a.cta-button:visited {
+    background-color: orangered;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 8px 16px;
+}
+
+a.cv-button:hover {
+    background-color: tomato;
+}
+
+a.cv-button:active {
+    background-color: darkred ;
+}
+
+
+/* CTA Button End */
+
+.card {
+    width: 250px;
+}
+
+.img-holder {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    /* ^ this crops the image^ */
+}
+
+.img-card {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.img-feat {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.icons {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.author-card {
+    align-items: center;
+}
+
+.author-photo {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.feat-card {
+
+}
+
+.feat-item {
+    flex-grow: 1;
+}
+
+a.btn-rocio {
+    font-family: 'Poppins', sans-serif;
+    color: #131045;
+    background-color: white;
+    border: 3px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
+}
+
+.div-contact {
+    flex: 1;
+}
+
+#hero {
+    background-image: url('../img/vincent-lin-QuNvb14G6mo-unsplash.jpg');
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+}
+
+#hero div {
+    padding: 20px;
+}
+
+#articles {
+    justify-content: space-between;
+}
+
+#contact {
+    justify-content: space-around;
+    background-color: wheat;
+}
+
+#contact div {
+    padding: 20px;
+}
+
+
+#video {
+    padding: 0;
+}
