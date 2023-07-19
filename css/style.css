@@ -1,5 +1,5 @@
 * {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Lunasima', sans-serif;
     margin: 10px 0px;
 }
 
@@ -57,7 +57,8 @@ footer {
 }
 
 img {
-    /* width:100%; */
+    width: 70px;
+    height: 70px;
 }
 
 
@@ -116,7 +117,7 @@ textarea {
 
 input[type=submit] {
     border: none;
-    background-color: orangered;
+    background-color: grey;
     color: white;
     cursor: pointer;
     
@@ -168,14 +169,14 @@ a:active {
 
 /* CTA Button */
 a.cta-button:link, a.cta-button:visited {
-    background-color: orangered;
+    background-color: grey;
     border-radius: 8px;
     color: whitesmoke;
     padding: 16px 24px;
 }
 
 a.cta-button:hover {
-    background-color: tomato;
+    background-color: lightskyblue;
 }
 
 a.cta-button:active {
@@ -185,14 +186,14 @@ a.cta-button:active {
 
 /* CV Download Button */
 a.cv-button:link, a.cta-button:visited {
-    background-color: orangered;
+    background-color: grey;
     border-radius: 8px;
     color: whitesmoke;
     padding: 8px 16px;
 }
 
 a.cv-button:hover {
-    background-color: tomato;
+    background-color: lightskyblue;
 }
 
 a.cv-button:active {
@@ -270,7 +271,7 @@ a.btn-rocio {
 }
 
 #hero {
-    background-image: url('../img/vincent-lin-QuNvb14G6mo-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1508444845599-5c89863b1c44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80');
     background-size: cover;
     height: 50vh;
     text-align: center;
